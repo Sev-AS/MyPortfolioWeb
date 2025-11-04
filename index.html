@@ -1,0 +1,228 @@
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="" />
+    <link
+      rel="stylesheet"
+      as="style"
+      onload="this.rel='stylesheet'"
+      href="https://fonts.googleapis.com/css2?display=swap&amp;family=Inter%3Awght%40400%3B500%3B700%3B900&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900"
+    />
+
+    <title>Sebastian Montoya Ochoa Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="data:image/x-icon;base64," />
+
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+    <div class="relative flex h-auto min-h-screen w-full flex-col bg-neutral-50 group/design-root overflow-x-hidden" style='font-family: Inter, "Noto Sans", sans-serif;'>
+      <div class="layout-container flex h-full grow flex-col">
+        <header class="flex items-center justify-between whitespace-nowrap border-b border-solid border-b-[#edeeed] px-4 md:px-10 py-3">
+          <div class="flex items-center gap-4 text-[#141514]">
+            <h2 class="text-[#141514] text-lg font-bold leading-tight tracking-[-0.015em]">Sebastian Montoya Ochoa</h2>
+          </div>
+          <div class="flex flex-1 justify-end gap-8">
+            <div class="flex items-center gap-9">
+              <a class="text-[#141514] text-sm font-medium leading-normal" href="#about">About</a>
+              <a class="text-[#141514] text-sm font-medium leading-normal" href="#projects">Projects</a>
+              <a class="text-[#141514] text-sm font-medium leading-normal" href="#skills">Skills</a>
+              <a class="text-[#141514] text-sm font-medium leading-normal" href="#experience">Experience</a>
+              <a class="text-[#141514] text-sm font-medium leading-normal" href="#contact">Contact</a>
+            </div>
+            <div
+              class="bg-center bg-no-repeat aspect-square bg-cover rounded-full size-10"
+              style='background-image: url("Me.jpg");'
+            ></div>
+            <div class="flex items-center gap-3">
+              <button id="langToggle" class="h-10 px-3 rounded-lg bg-[#edeeed] text-[#141514] text-sm font-medium">ES/EN</button>
+            </div>
+          </div>
+        </header>
+        <div class="px-4 md:px-10 lg:px-40 flex flex-1 justify-center py-5">
+          <div class="layout-content-container flex flex-col max-w-[960px] flex-1">
+            <div class="@container">
+              <div class="@[480px]:p-4">
+                <div
+                  class="hero-section flex min-h-[300px] md:min-h-[480px] flex-col gap-6 bg-cover bg-center bg-no-repeat @[480px]:gap-8 @[480px]:rounded-lg items-start justify-end px-4 pb-10 @[480px]:px-10"
+                  style='background-image: linear-gradient(rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.4) 100%), url("https://lh3.googleusercontent.com/aida-public/AB6AXuBSpNVFQ0nx1o0x9gSUKp26phYVC5xEC2zmQsHd9dge-rii5IGtwUO684xOh1cCg2RNxm0x7GyrmV8tUjU_XajPyQfO3EKMUwVBui73mvHlVfdcwcIHedVOLV0lw8J1fM3LscWN5d8jP1S3tIuX6I0QgfnUxFxQl1taVvJfLehbsxm0FrRi4IUEGWvqKEo_ti7U9eQsDl8ABJrfvubDIC2odH2-k7dKHBP9HmB-onRLy-r9zTIkroH1zqAvGstxcaTDIdoazflDs98y");'
+                >
+                  <div class="flex flex-col gap-2 text-left">
+                    <h1
+                      class="text-white text-4xl font-black leading-tight tracking-[-0.033em] @[480px]:text-5xl @[480px]:font-black @[480px]:leading-tight @[480px]:tracking-[-0.033em]"
+                    >
+                      Sebastian Montoya Ochoa
+                    </h1>
+                    <h2 class="text-white text-sm font-normal leading-normal @[480px]:text-base @[480px]:font-normal @[480px]:leading-normal"><span class="lang-en">Backend Developer → DevOps Engineer | Java | AWS | Automation</span><span class="lang-es">Desarrollador Backend → DevOps Engineer | Java | AWS | Automatización</span></h2>
+                  </div>
+                  <button
+                    class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 @[480px]:h-12 @[480px]:px-5 bg-[#212621] text-neutral-50 text-sm font-bold leading-normal tracking-[0.015em] @[480px]:text-base @[480px]:font-bold @[480px]:leading-normal @[480px]:tracking-[0.015em]"
+                    onclick="window.location.href='mailto:sebastian.montoya.ochoa7@gmail.com'"
+                  >
+                    <span class="truncate">Contact</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div id="about"></div>
+            <h2 class="text-[#141514] text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5"><span class="lang-en">About Me</span><span class="lang-es">Sobre mí</span></h2>
+            <div class="text-[#141514] text-base font-normal leading-normal pb-3 pt-1 px-4">
+              <p class="lang-en pb-2"><strong>Sebastián Montoya</strong>, software development apprentice from Colombia. I combine robust backend development with a DevOps mindset focused on automation, scalability, and reliability.</p>
+              <p class="lang-es pb-2"><strong>Sebastián Montoya</strong>, aprendiz de desarrollo de software de Colombia. Combino desarrollo backend robusto con mentalidad DevOps enfocada en automatización, escalabilidad y confiabilidad.</p>
+              <blockquote class="lang-en italic">“Even dust, when piled up, becomes a mountain.”</blockquote>
+              <blockquote class="lang-es italic">“Incluso el polvo, cuando se amontona, se convierte en una montaña.”</blockquote>
+            </div>
+            <h3 class="text-[#141514] text-lg font-bold leading-tight tracking-[-0.015em] px-4 pt-2"><span class="lang-en">Strengths</span><span class="lang-es">Fortalezas</span></h3>
+            <div class="px-6 py-2">
+              <ul class="list-disc text-[#141514] text-base leading-normal">
+                <li class="lang-en"><strong>Backend (Java, Spring Boot)</strong>: REST APIs, dependency injection, modular architecture</li>
+                <li class="lang-es"><strong>Backend (Java, Spring Boot)</strong>: APIs REST, inyección de dependencias, arquitectura modular</li>
+                <li class="lang-en"><strong>Databases</strong>: MySQL, advanced SQL, query optimization</li>
+                <li class="lang-es"><strong>Bases de datos</strong>: MySQL, SQL avanzado, optimización de consultas</li>
+                <li class="lang-en"><strong>DevOps (in progress)</strong>: CI/CD, Docker, AWS, Kubernetes, Terraform</li>
+                <li class="lang-es"><strong>DevOps (en consolidación)</strong>: CI/CD, Docker, AWS, Kubernetes, Terraform</li>
+                <li class="lang-en"><strong>Collaboration</strong>: Git/GitHub, Agile/Scrum, technical documentation</li>
+                <li class="lang-es"><strong>Colaboración</strong>: Git/GitHub, Agile/Scrum, documentación técnica</li>
+                <li class="lang-en"><strong>Soft skills</strong>: analytical thinking, discipline, curiosity</li>
+                <li class="lang-es"><strong>Habilidades blandas</strong>: pensamiento analítico, disciplina, curiosidad</li>
+              </ul>
+            </div>
+            <h3 class="text-[#141514] text-lg font-bold leading-tight tracking-[-0.015em] px-4 pt-2"><span class="lang-en">Technology Stack</span><span class="lang-es">Stack Tecnológico</span></h3>
+            <div class="px-6 py-2">
+              <pre class="text-sm text-[#6f766f] whitespace-pre-wrap">DESARROLLO:        Java | Spring Boot | JavaScript | Python | HTML | CSS
+BASES DE DATOS:    MySQL | SQL Avanzado
+HERRAMIENTAS:      Git | GitHub | Bash | Scrum
+DEVOPS (EN RUTA):  Docker | CI/CD | AWS | GitHub Actions | Jenkins | Kubernetes | Terraform
+METODOLOGÍAS:      Agile | Scrum | Clean Code</pre>
+            </div>
+            <h3 class="text-[#141514] text-lg font-bold leading-tight tracking-[-0.015em] px-4 pt-2"><span class="lang-en">Goals</span><span class="lang-es">Objetivos</span></h3>
+            <div class="px-6 py-2 text-[#141514]">
+              <p class="lang-en"><strong>Short term</strong>: Junior Backend or DevOps role. Apply automation in real pipelines; deepen cloud infrastructure; contribute to continuous delivery.</p>
+              <p class="lang-es"><strong>Corto plazo</strong>: Rol como Backend en formación o DevOps Junior. Aplicar automatización en pipelines reales; profundizar en infraestructura cloud; contribuir al despliegue continuo.</p>
+              <p class="lang-en"><strong>Mid/Long term</strong>: DevOps Engineer specialized in AWS, with strong automation and infrastructure expertise.</p>
+              <p class="lang-es"><strong>Mediano/Largo plazo</strong>: Consolidarme como DevOps Engineer especialista en AWS, con fuerte base en automatización e infraestructura.</p>
+            </div>
+            <h3 class="text-[#141514] text-lg font-bold leading-tight tracking-[-0.015em] px-4 pt-2"><span class="lang-en">Differential</span><span class="lang-es">Diferencial</span></h3>
+            <div class="px-6 py-2 text-[#141514]">
+              <ul class="list-disc">
+                <li class="lang-en">Thinks like a developer and ops; continuous improvement; strong fundamentals.</li>
+                <li class="lang-es">Pienso como dev y ops; mejora continua; fundamentación sólida.</li>
+              </ul>
+            </div>
+            <div id="projects"></div>
+            <h2 class="text-[#141514] text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5"><span class="lang-en">Featured Projects</span><span class="lang-es">Proyectos Destacados</span></h2>
+            <div class="projects-container flex overflow-x-auto [-ms-scrollbar-style:none] [scrollbar-width:none] [&amp;::-webkit-scrollbar]:hidden">
+              <div class="flex items-stretch p-4 gap-3">
+                <a href="https://github.com/Sev-AS/JavaScript_Ecommerce_Page" target="_blank" rel="noopener noreferrer" class="project-card flex h-full flex-1 flex-col gap-4 rounded-lg min-w-60 md:min-w-80 cursor-pointer">
+                  <div
+                    class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-lg flex flex-col bg-gradient-to-br from-blue-500 to-purple-600"
+                  >
+                    <div class="flex items-center justify-center h-full">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="white" viewBox="0 0 256 256">
+                        <path d="M208.31,75.68A59.78,59.78,0,0,0,202.93,28,8,8,0,0,0,196,24a59.75,59.75,0,0,0-48,24H124A59.75,59.75,0,0,0,76,24a8,8,0,0,0-6.93,4,59.78,59.78,0,0,0-5.38,47.68A58.14,58.14,0,0,0,56,104v8a56.06,56.06,0,0,0,48.44,55.47A39.8,39.8,0,0,0,96,192v8H72a24,24,0,0,1-24-24A40,40,0,0,0,8,136a8,8,0,0,0,0,16,24,24,0,0,1,24,24,40,40,0,0,0,40,40H96v16a8,8,0,0,0,16,0V192a24,24,0,0,1,48,0v40a8,8,0,0,0,16,0V192a39.8,39.8,0,0,0-8.44-24.53A56.06,56.06,0,0,0,216,112v-8A58.14,58.14,0,0,0,208.31,75.68ZM200,112a40,40,0,0,1-40,40H112a40,40,0,0,1-40-40v-8a41.74,41.74,0,0,1,6.9-22.48A8,8,0,0,0,80,73.83a43.81,43.81,0,0,1,.79-33.58,43.88,43.88,0,0,1,32.32,20.06A8,8,0,0,0,119.82,64h32.35a8,8,0,0,0,6.74-3.69,43.87,43.87,0,0,1,32.32-20.06A43.81,43.81,0,0,1,192,73.83a8.09,8.09,0,0,0,1,7.65A41.72,41.72,0,0,1,200,104Z"></path>
+                      </svg>
+                    </div>
+                  </div>
+                  <div>
+                    <p class="text-[#141514] text-base font-medium leading-normal">
+                      <span class="lang-en">JavaScript Ecommerce Page</span>
+                      <span class="lang-es">JavaScript Ecommerce Page</span>
+                    </p>
+                    <p class="text-[#6f766f] text-sm font-normal leading-normal">
+                      <span class="lang-en">A simple, clean, and functional e-commerce front-end built with vanilla HTML, CSS, and JavaScript.</span>
+                      <span class="lang-es">Un front-end de comercio electrónico simple, limpio y funcional construido con HTML, CSS y JavaScript vanilla.</span>
+                    </p>
+                  </div>
+                </a>
+                <a href="https://github.com/Sev-AS/Python_Virtual_Lottery" target="_blank" rel="noopener noreferrer" class="project-card flex h-full flex-1 flex-col gap-4 rounded-lg min-w-60 md:min-w-80 cursor-pointer">
+                  <div
+                    class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-lg flex flex-col bg-gradient-to-br from-green-500 to-teal-600"
+                  >
+                    <div class="flex items-center justify-center h-full">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="white" viewBox="0 0 256 256">
+                        <path d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm0,192a88,88,0,1,1,88-88A88.1,88.1,0,0,1,128,216Zm48-88a48,48,0,1,1-48-48A48,48,0,0,1,176,128Zm-16,0a32,32,0,1,0-32,32A32,32,0,0,0,160,128Z"></path>
+                      </svg>
+                    </div>
+                  </div>
+                  <div>
+                    <p class="text-[#141514] text-base font-medium leading-normal">
+                      <span class="lang-en">Python Virtual Lottery</span>
+                      <span class="lang-es">Lotería Virtual Python</span>
+                    </p>
+                    <p class="text-[#6f766f] text-sm font-normal leading-normal">
+                      <span class="lang-en">A desktop application that simulates a lottery game. Allows users to buy tickets, perform draws, and maintain a record of results.</span>
+                      <span class="lang-es">Una aplicación de escritorio que simula un juego de lotería. Permite a los usuarios comprar boletos, realizar sorteos y mantener un registro de los resultados.</span>
+                    </p>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div id="skills"></div>
+            <h2 class="text-[#141514] text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5"><span class="lang-en">Skills</span><span class="lang-es">Habilidades</span></h2>
+            <div class="skills-container flex gap-3 p-3 flex-wrap pr-4">
+              <div class="flex h-8 shrink-0 items-center justify-center gap-x-2 rounded-lg bg-[#edeeed] pl-4 pr-4"><p class="text-[#141514] text-sm font-medium leading-normal">Java</p></div>
+              <div class="flex h-8 shrink-0 items-center justify-center gap-x-2 rounded-lg bg-[#edeeed] pl-4 pr-4"><p class="text-[#141514] text-sm font-medium leading-normal">Spring Boot</p></div>
+              <div class="flex h-8 shrink-0 items-center justify-center gap-x-2 rounded-lg bg-[#edeeed] pl-4 pr-4"><p class="text-[#141514] text-sm font-medium leading-normal">MySQL</p></div>
+              <div class="flex h-8 shrink-0 items-center justify-center gap-x-2 rounded-lg bg-[#edeeed] pl-4 pr-4"><p class="text-[#141514] text-sm font-medium leading-normal">Advanced SQL</p></div>
+              <div class="flex h-8 shrink-0 items-center justify-center gap-x-2 rounded-lg bg-[#edeeed] pl-4 pr-4"><p class="text-[#141514] text-sm font-medium leading-normal">Docker</p></div>
+              <div class="flex h-8 shrink-0 items-center justify-center gap-x-2 rounded-lg bg-[#edeeed] pl-4 pr-4"><p class="text-[#141514] text-sm font-medium leading-normal">CI/CD</p></div>
+              <div class="flex h-8 shrink-0 items-center justify-center gap-x-2 rounded-lg bg-[#edeeed] pl-4 pr-4"><p class="text-[#141514] text-sm font-medium leading-normal">AWS</p></div>
+              <div class="flex h-8 shrink-0 items-center justify-center gap-x-2 rounded-lg bg-[#edeeed] pl-4 pr-4"><p class="text-[#141514] text-sm font-medium leading-normal">Kubernetes</p></div>
+              <div class="flex h-8 shrink-0 items-center justify-center gap-x-2 rounded-lg bg-[#edeeed] pl-4 pr-4"><p class="text-[#141514] text-sm font-medium leading-normal">Terraform</p></div>
+              <div class="flex h-8 shrink-0 items-center justify-center gap-x-2 rounded-lg bg-[#edeeed] pl-4 pr-4"><p class="text-[#141514] text-sm font-medium leading-normal">Git & GitHub</p></div>
+            </div>
+            <div id="experience"></div>
+            <h2 class="text-[#141514] text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5"><span class="lang-en">Experience</span><span class="lang-es">Experiencia</span></h2>
+            <div class="px-4 py-3">
+              <p class="text-[#6f766f] text-base leading-normal lang-en">Actively seeking opportunities to apply and grow as Backend/DevOps.</p>
+              <p class="text-[#6f766f] text-base leading-normal lang-es">Buscando oportunidades para aplicar y crecer como Backend/DevOps.</p>
+            </div>
+            <div id="contact"></div>
+            <h2 class="text-[#141514] text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5"><span class="lang-en">Contact</span><span class="lang-es">Contacto</span></h2>
+            <p class="text-[#141514] text-base font-normal leading-normal pb-3 pt-1 px-4">
+              <span class="lang-en">Let's collaborate! Reach out anytime.</span>
+              <span class="lang-es">¡Colaboremos! Escríbeme cuando quieras.</span>
+            </p>
+            <div class="flex px-4 py-3 justify-start">
+              <button
+                class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 bg-[#212621] text-neutral-50 text-sm font-bold leading-normal tracking-[0.015em]"
+                onclick="window.location.href='mailto:sebastian.montoya.ochoa7@gmail.com'"
+              >
+                <span class="truncate">Get in Touch</span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <footer class="flex justify-center">
+          <div class="flex max-w-[960px] flex-1 flex-col">
+            <footer class="flex flex-col gap-6 px-5 py-10 text-center @container">
+              <div class="flex flex-wrap items-center justify-center gap-6 @[480px]:flex-row @[480px]:justify-around">
+                <a class="text-[#6f766f] text-base font-normal leading-normal min-w-40" href="mailto:sebastian.montoya.ochoa7@gmail.com">sebastian.montoya.ochoa7@gmail.com</a>
+              </div>
+              <div class="flex flex-wrap justify-center gap-4">
+                <a href="https://www.linkedin.com/in/sebastian-montoya-ochoa-a0b5602ba?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener noreferrer">
+                  <div class="text-[#6f766f]" data-icon="LinkedinLogo" data-size="24px" data-weight="regular">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                      <path
+                        d="M216,24H40A16,16,0,0,0,24,40V216a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V40A16,16,0,0,0,216,24Zm0,192H40V40H216V216ZM96,112v64a8,8,0,0,1-16,0V112a8,8,0,0,1,16,0Zm88,28v36a8,8,0,0,1-16,0V140a20,20,0,0,0-40,0v36a8,8,0,0,1-16,0V112a8,8,0,0,1,15.79-1.78A36,36,0,0,1,184,140ZM100,84A12,12,0,1,1,88,72,12,12,0,0,1,100,84Z"
+                      ></path>
+                    </svg>
+                  </div>
+                </a>
+                <a href="https://github.com/Sev-AS" target="_blank" rel="noopener noreferrer">
+                  <div class="text-[#6f766f]" data-icon="GithubLogo" data-size="24px" data-weight="regular">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                      <path
+                        d="M208.31,75.68A59.78,59.78,0,0,0,202.93,28,8,8,0,0,0,196,24a59.75,59.75,0,0,0-48,24H124A59.75,59.75,0,0,0,76,24a8,8,0,0,0-6.93,4,59.78,59.78,0,0,0-5.38,47.68A58.14,58.14,0,0,0,56,104v8a56.06,56.06,0,0,0,48.44,55.47A39.8,39.8,0,0,0,96,192v8H72a24,24,0,0,1-24-24A40,40,0,0,0,8,136a8,8,0,0,0,0,16,24,24,0,0,1,24,24,40,40,0,0,0,40,40H96v16a8,8,0,0,0,16,0V192a24,24,0,0,1,48,0v40a8,8,0,0,0,16,0V192a39.8,39.8,0,0,0-8.44-24.53A56.06,56.06,0,0,0,216,112v-8A58.14,58.14,0,0,0,208.31,75.68ZM200,112a40,40,0,0,1-40,40H112a40,40,0,0,1-40-40v-8a41.74,41.74,0,0,1,6.9-22.48A8,8,0,0,0,80,73.83a43.81,43.81,0,0,1,.79-33.58,43.88,43.88,0,0,1,32.32,20.06A8,8,0,0,0,119.82,64h32.35a8,8,0,0,0,6.74-3.69,43.87,43.87,0,0,1,32.32-20.06A43.81,43.81,0,0,1,192,73.83a8.09,8.09,0,0,0,1,7.65A41.72,41.72,0,0,1,200,104Z"
+                      ></path>
+                    </svg>
+                  </div>
+                </a>
+              </div>
+              <p class="text-[#6f766f] text-base font-normal leading-normal">© 2025 Sebastian Montoya Ochoa. All rights reserved.</p>
+            </footer>
+          </div>
+        </footer>
+      </div>
+    </div>
+  <script src="js/main.js"></script>
+  </body>
